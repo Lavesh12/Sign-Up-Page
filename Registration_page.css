@@ -1,0 +1,102 @@
+body{
+  background-color: #680442;
+}
+
+
+/* Add styles for the navigation bar */
+nav {
+  background-color: rgb(235, 120, 206);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Add styles for the navigation links */
+nav a {
+  color: rgb(243, 241, 241);
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Add styles for the navigation links when they are hovered over */
+nav a:hover {
+  color: rgb(8, 10, 0);
+}
+
+/* Add styles for the dropdown menu */
+nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: lightgrey;
+  top: 60px;
+  right: 0;
+}
+
+/* Add styles for the dropdown menu when it is open */
+nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .registration-form {
+    width: 400px;
+    padding: 1rem;
+    background-color: #eebbbb;
+    box-shadow: 0 0 10px rgba(34, 3, 3, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label,
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .submit-button {
+    background-color: #680442;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .submit-button:hover {
+    background-color: #0c0005;
+  }
+  
